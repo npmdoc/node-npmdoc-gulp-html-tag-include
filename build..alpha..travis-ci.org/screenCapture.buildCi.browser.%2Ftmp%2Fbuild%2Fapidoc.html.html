@@ -54,12 +54,54 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.gulp-html-tag-include">module gulp-html-tag-include</a><ol>
 
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.gulp-html-tag-include.gulp-html-tag-include">
+            function <span class="apidocSignatureSpan"></span>gulp-html-tag-include
+            <span class="apidocSignatureSpan">(options)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.gulp-html-tag-include" id="apidoc.module.gulp-html-tag-include">module gulp-html-tag-include</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.gulp-html-tag-include.gulp-html-tag-include" id="apidoc.element.gulp-html-tag-include.gulp-html-tag-include">
+        function <span class="apidocSignatureSpan"></span>gulp-html-tag-include
+        <span class="apidocSignatureSpan">(options)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function gulpHtmlTagInclude(options) {
+    var gulpPlugin = new GulpHtmlTagIncludePlugin(options);
+    return through.obj(function (file, enc, cb) {
+        var content;
+        if (file.isStream()) {
+            this.emit('error', new PluginError(GulpHtmlTagIncludePlugin.PLUGIN_NAME, 'Stream content is not supported'));
+            return cb(null, file);
+        }
+        if (file.isBuffer()) {
+            try {
+                content = gulpPlugin.execute(file.path, file.contents.toString('utf8'));
+                file.contents = new Buffer(content);
+            }
+            catch (err) {
+                this.emit('error', new PluginError(GulpHtmlTagIncludePlugin.PLUGIN_NAME, err));
+            }
+        }
+        this.push(file);
+        return cb();
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
 
 </div>
 
