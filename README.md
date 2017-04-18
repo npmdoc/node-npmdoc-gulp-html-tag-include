@@ -1,9 +1,14 @@
-# api documentation for  [gulp-html-tag-include (v1.0.1)](https://github.com/zaharin/gulp-html-tag-include)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-html-tag-include.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-html-tag-include) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-html-tag-include.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-html-tag-include)
+# npmdoc-gulp-html-tag-include
+
+#### api documentation for  [gulp-html-tag-include (v1.0.1)](https://github.com/zaharin/gulp-html-tag-include)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-html-tag-include.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-html-tag-include) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-html-tag-include.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-html-tag-include)
+
 #### Gulp plugin for building HTML files into each other
 
-[![NPM](https://nodei.co/npm/gulp-html-tag-include.png?downloads=true)](https://www.npmjs.com/package/gulp-html-tag-include)
+[![NPM](https://nodei.co/npm/gulp-html-tag-include.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-html-tag-include)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-html-tag-include/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-gulp-html-tag-include_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-html-tag-include/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-gulp-html-tag-include/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-gulp-html-tag-include/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-gulp-html-tag-include/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-gulp-html-tag-include/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-gulp-html-tag-include/build/screenCapture.npmPackageListing.svg)
 
@@ -44,13 +49,11 @@
     "main": "index.js",
     "maintainers": [
         {
-            "name": "dissolve",
-            "email": "pleon84@yandex.ru"
+            "name": "dissolve"
         }
     ],
     "name": "gulp-html-tag-include",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/zaharin/gulp-html-tag-include.git"
@@ -61,16 +64,6 @@
     "version": "1.0.1"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module gulp-html-tag-include](#apidoc.module.gulp-html-tag-include)
-
-
-
-# <a name="apidoc.module.gulp-html-tag-include"></a>[module gulp-html-tag-include](#apidoc.module.gulp-html-tag-include)
 
 
 
