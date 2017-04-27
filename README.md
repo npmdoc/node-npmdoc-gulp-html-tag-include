@@ -1,6 +1,6 @@
 # npmdoc-gulp-html-tag-include
 
-#### api documentation for  [gulp-html-tag-include (v1.0.1)](https://github.com/zaharin/gulp-html-tag-include)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-html-tag-include.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-html-tag-include) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-html-tag-include.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-html-tag-include)
+#### basic api documentation for  [gulp-html-tag-include (v1.0.1)](https://github.com/zaharin/gulp-html-tag-include)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-html-tag-include.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-html-tag-include) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-html-tag-include.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-html-tag-include)
 
 #### Gulp plugin for building HTML files into each other
 
@@ -61,7 +61,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
